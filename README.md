@@ -75,4 +75,4 @@ O teclado do CHIP-8 (hexadecimal 0-F) está mapeado para o teclado do computador
 
 ## 📜 Licença
 
-Este projeto é desenvolvido para fins educacionais.
+MIT. Ver o arquivo [LICENSE](https://github.com/sksdutra/odin8/blob/main/LICENSE).
