@@ -2,6 +2,8 @@
 
 Um emulador simples de [CHIP-8](https://en.wikipedia.org/wiki/CHIP-8) escrito na linguagem de programação **Odin**, utilizando a biblioteca **Raylib** para gráficos, entrada e áudio.
 
+![odin8 rodando Space Invaders](https://github.com/sksdutra/odin8/blob/main/img/screen.png)
+
 ## 🚀 Funcionalidades
 
 - Emulação do set de instruções padrão do CHIP-8.
