@@ -1,0 +1,42 @@
+# --- Binários e Executáveis ---
+# Ignora o executável principal (geralmente o nome da pasta ou definido no build)
+odin8
+*.bin
+*.exe
+*.out
+*.app
+
+# --- Arquivos de Build e Objetos ---
+# Se você gerar arquivos intermediários ou usar o modo -build-mode:obj
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# --- ROMs e Dados (Opcional, mas recomendado) ---
+# Evita subir arquivos protegidos por direitos autorais ou binários pesados
+roms/*.ch8
+*.rom
+*.sav
+
+# --- Editores e IDEs ---
+# Configurações do VS Code (frequentemente contêm caminhos locais)
+.vscode/
+*.code-workspace
+
+# Vim / Emacs
+*~
+*.swp
+*.swo
+
+# --- Sistema e Logs ---
+.DS_Store
+Thumbs.db
+*.log
+
+# --- Odin Specific ---
+# Caso use o gerenciador de pacotes ou coleções locais futuramente
+# .odin-pm/
